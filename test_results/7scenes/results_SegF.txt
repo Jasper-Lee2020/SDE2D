@@ -1,0 +1,86 @@
+root@autodl-container-908d479a1c-05301128:~/autodl-tmp/test_dark_7scenes# python test_7scenes_nn_evalute.py
+[2024/05/04 17:09:31 hloc INFO] Working on scene "pumpkin".
+[2024/05/04 17:09:31 hloc INFO] Evaluate scene "pumpkin".
+[2024/05/04 17:09:35 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.050m, 1.332deg
+Percentage of test images localized within:
+        1cm, 1deg : 2.70%
+        2cm, 2deg : 11.75%
+        3cm, 3deg : 25.05%
+        5cm, 5deg : 49.60%
+        25cm, 2deg : 68.20%
+        50cm, 5deg : 96.15%
+        500cm, 10deg : 99.25%
+[2024/05/04 17:09:35 hloc INFO] Working on scene "office".
+[2024/05/04 17:09:35 hloc INFO] Evaluate scene "office".
+[2024/05/04 17:09:41 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.035m, 0.995deg
+Percentage of test images localized within:
+        1cm, 1deg : 2.53%
+        2cm, 2deg : 20.85%
+        3cm, 3deg : 42.38%
+        5cm, 5deg : 68.70%
+        25cm, 2deg : 84.78%
+        50cm, 5deg : 98.58%
+        500cm, 10deg : 99.58%
+[2024/05/04 17:09:41 hloc INFO] Working on scene "redkitchen".
+[2024/05/04 17:09:41 hloc INFO] Evaluate scene "redkitchen".
+[2024/05/04 17:09:53 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.041m, 1.437deg
+Percentage of test images localized within:
+        1cm, 1deg : 1.60%
+        2cm, 2deg : 13.14%
+        3cm, 3deg : 30.74%
+        5cm, 5deg : 59.52%
+        25cm, 2deg : 70.38%
+        50cm, 5deg : 93.94%
+        500cm, 10deg : 96.86%
+[2024/05/04 17:09:53 hloc INFO] Working on scene "stairs".
+[2024/05/04 17:09:53 hloc INFO] Evaluate scene "stairs".
+[2024/05/04 17:09:55 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.050m, 1.360deg
+Percentage of test images localized within:
+        1cm, 1deg : 1.80%
+        2cm, 2deg : 9.00%
+        3cm, 3deg : 19.30%
+        5cm, 5deg : 49.70%
+        25cm, 2deg : 68.50%
+        50cm, 5deg : 91.60%
+
+root@autodl-container-908d479a1c-05301128:~/autodl-tmp/test_dark_7scenes# python test_7scenes_nn_evalute.py
+[2024/05/04 17:48:57 hloc INFO] Working on scene "chess".
+[2024/05/04 17:48:57 hloc INFO] Evaluate scene "chess".
+[2024/05/04 17:49:03 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.025m, 0.894deg
+Percentage of test images localized within:
+        1cm, 1deg : 7.55%
+        2cm, 2deg : 34.90%
+        3cm, 3deg : 62.25%
+        5cm, 5deg : 91.40%
+        25cm, 2deg : 96.85%
+        50cm, 5deg : 99.35%
+        500cm, 10deg : 100.00%
+[2024/05/04 17:49:03 hloc INFO] Working on scene "fire".
+[2024/05/04 17:49:03 hloc INFO] Evaluate scene "fire".
+[2024/05/04 17:49:11 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.021m, 0.850deg
+Percentage of test images localized within:
+        1cm, 1deg : 11.85%
+        2cm, 2deg : 46.30%
+        3cm, 3deg : 70.90%
+        5cm, 5deg : 92.60%
+        25cm, 2deg : 91.10%
+        50cm, 5deg : 99.10%
+        500cm, 10deg : 99.10%
+[2024/05/04 17:49:11 hloc INFO] Working on scene "heads".
+[2024/05/04 17:49:11 hloc INFO] Evaluate scene "heads".
+[2024/05/04 17:49:12 hloc.pipelines.Cambridge.utils INFO] Results for file results_sparse.txt:
+Median errors: 0.010m, 0.702deg
+Percentage of test images localized within:
+        1cm, 1deg : 49.80%
+        2cm, 2deg : 83.80%
+        3cm, 3deg : 89.10%
+        5cm, 5deg : 93.80%
+        25cm, 2deg : 91.20%
+        50cm, 5deg : 94.30%
+        500cm, 10deg : 95.00%
